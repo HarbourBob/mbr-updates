@@ -8,7 +8,7 @@
     "tested": "6.7",
     "requires_php": "7.4",
     "download_url": "REPLACE-ME: public URL of mbr-html-generator-v1_8_0.zip",
-    "homepage": "https://madebyrobert.co.uk/plugins/mbr-html-generator/",
+    "homepage": "https://littlewebshack.com/online-html-generator/",
     "sections": {
         "description": "A two-panel HTML generator for WordPress. Compose visually in TinyMCE on the left, watch the formatted HTML appear in real time on the right. Bundled TinyMCE 8.5.0 (GPL community edition) — no CDN, no API keys, no telemetry, no premium tier.",
         "changelog": "<h4>1.8.0</h4><ul><li>New: Self-hosted update checking via Plugin Update Checker 5.7, with the manifest served from the public HarbourBob/mbr-updates GitHub repo (raw URL) to bypass host-side caching.</li><li>Changed: Footer credit link now points to madebyrobert.co.uk (opens in new tab).</li></ul>"
