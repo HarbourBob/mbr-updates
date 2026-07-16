@@ -1,17 +1,17 @@
 {
 	"name": "MBR Live Radio Player",
 	"slug": "mbr-live-radio-player",
-	"version": "3.9.26",
+	"version": "3.9.27",
 	"author": "<a href=\"https://madebyrobert.co.uk\">Robert Palmer</a>",
 	"author_homepage": "https://madebyrobert.co.uk",
 	"homepage": "https://madebyrobert.co.uk/mbr-live-radio-player/",
 	"requires": "5.2",
 	"tested": "6.8",
 	"requires_php": "7.2",
-	"download_url": "https://littlewebshack.com/downloads/radio-player/mbr-live-radio-player-3.9.26.zip",
+	"download_url": "https://littlewebshack.com/downloads/radio-player/mbr-live-radio-player-3.9.27.zip",
 	"sections": {
 		"description": "<p>A beautiful, fully-featured audio player for WordPress. Supports live radio streams, HLS, and a built-in file player with playlist, progress bar, and resume-from-last-position.</p><p>Two player modes: Live Stream (HLS, Shoutcast, Icecast, MP3/AAC/OGG with live now-playing metadata) and File Player (Media Library playlists with seek, 15-second skip, auto-advance, and resume). Six skins, custom gradients, dark mode, glassmorphism, multi-station support, and a fully interactive live admin preview.</p>",
 		"changelog": "<h4>3.9.26</h4><ul><li>Self-hosted updates now delivered via Plugin Update Checker 5.7 with the manifest served from GitHub.</li></ul>"
 	},
-	"last_updated": "2026-07-11 14:00:00"
+	"last_updated": "2026-07-16 14:00:00"
 }
