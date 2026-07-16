@@ -1,0 +1,17 @@
+{
+	"name": "MBR Elementor Form Icons",
+	"slug": "mbr-elementor-form-icons",
+	"version": "1.5.1",
+	"download_url": "https://littlewebshack.com/downloads/elementor-form-icons/mbr-elementor-form-icons-1.5.1.zip",
+	"requires": "5.8",
+	"tested": "6.8",
+	"requires_php": "7.4",
+	"author": "Robert Palmer",
+	"author_homepage": "https://madebyrobert.co.uk",
+	"homepage": "https://littlewebshack.com/mbr-elementor-form-icons-free-plugin/",
+	"last_updated": "2026-07-16 12:00:00",
+	"sections": {
+		"description": "Add Font Awesome icons to Elementor Pro form fields — supports both the classic Form widget and the new atomic Form > Input element (Elementor 4.0.1+). Per-field icon controls, placeholder or above-field positioning, and auto-generated Style panel Size and Color controls for atomic inputs. Pure PHP, no external dependencies, GPL-2.0-or-later.",
+		"changelog": "<h4>1.5.1</h4><ul><li>Self-hosted updates via Plugin Update Checker 5.7 (GitHub-hosted manifest).</li></ul><h4>1.5.0</h4><ul><li>NEW: Atomic Form &gt; Input element support (Elementor 4.0.1+).</li><li>Icon renders inside the input placeholder area via custom Twig template.</li><li>Style panel Icon section with Size and Color controls (auto-generated).</li><li>Transparently replaces the stock atomic Input widget — no manual steps.</li><li>Classic Form widget support retained and unchanged.</li></ul>"
+	}
+}
