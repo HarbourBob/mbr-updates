@@ -1,0 +1,18 @@
+/* MBR Elementor Form Icons */
+
+/* Above position icons should ALWAYS be visible */
+.mbr-efi-icon-above {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Placeholder position field groups need relative positioning */
+.mbr-efi-has-placeholder-icon {
+    position: relative;
+}
+
+/* General icon styling */
+.mbr-efi-icon {
+    line-height: 1;
+}

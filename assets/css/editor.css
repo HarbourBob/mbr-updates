@@ -1,0 +1,66 @@
+/**
+ * MBR Elementor Form Icons - Editor Styles
+ * Version: 1.0.0
+ */
+
+/* Add some spacing to the icon controls in the editor */
+.elementor-control-mbr_enable_icon {
+    border-top: 1px solid #e6e9ec;
+    padding-top: 15px !important;
+    margin-top: 15px !important;
+}
+
+/* Icon preview in editor (if we add it later) */
+.mbr-efi-icon-preview {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* Help text styling */
+.elementor-control-mbr_icon_class .elementor-control-field-description {
+    font-style: italic;
+    color: #71d7f7;
+}
+
+/* Ensure icons show with correct colors in editor preview */
+.elementor-element-edit-mode .mbr-efi-icon,
+.elementor-editor-active .mbr-efi-icon {
+    display: inline-block !important;
+    line-height: 1 !important;
+}
+
+/* Force icon colors in editor iframe */
+.elementor-element-edit-mode .mbr-efi-icon[style*="color"],
+.elementor-editor-active .mbr-efi-icon[style*="color"] {
+    opacity: 1 !important;
+}
+
+/* Hide global colors tab in color picker for icon color control */
+.elementor-control-mbr_icon_color .pcr-app .pcr-interaction .pcr-result {
+    /* This is the color picker - we need to hide the global tab */
+}
+
+/* Target the Elementor color picker tabs for mbr_icon_color */
+.elementor-control-mbr_icon_color .pickr .pcr-app[data-theme="monolith"] .pcr-selection .pcr-color-palette,
+.elementor-control-mbr_icon_color .elementor-control-input-wrapper .elementor-control-tag-area {
+    /* Hide global colors if they appear */
+}
+
+/* Alternative approach - hide the global colors button in our color picker */
+body.elementor-editor-active .elementor-control-mbr_icon_color .elementor-control-dynamic-switcher {
+    display: none !important;
+}
+
+/* Multiple selectors to ensure it's hidden */
+.elementor-control-mbr_icon_color .elementor-control-dynamic-switcher,
+.elementor-control-mbr_icon_color .elementor-control-dynamic-switcher.elementor-control-unit-1,
+.elementor-repeater-fields .elementor-control-mbr_icon_color .elementor-control-dynamic-switcher {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
