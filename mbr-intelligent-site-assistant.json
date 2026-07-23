@@ -1,0 +1,17 @@
+{
+    "name": "MBR Intelligent Site Assistant",
+    "slug": "mbr-intelligent-site-assistant",
+    "version": "0.7.0",
+    "download_url": "https://littlewebshack.com/downloads/site-assistant/mbr-intelligent-site-assistant.zip",
+    "homepage": "https://littlewebshack.com",
+    "author": "Robert Palmer",
+    "author_homepage": "https://littlewebshack.com",
+    "requires": "5.8",
+    "tested": "6.7",
+    "requires_php": "7.4",
+    "last_updated": "2026-07-23 21:47:32",
+    "sections": {
+        "description": "A self-hosted conversational site search for WordPress. No external APIs, no monthly fees, no data leaves your server. Field-weighted BM25 ranking with intent matching, synonym expansion, and optional PDF indexing.",
+        "changelog": "<h4>0.7.0</h4>\n<ul>\n<li>Added: Optional PDF indexing. Extract and index the text layer of Media Library PDFs so their contents are searchable alongside posts and pages.</li>\n<li>Added: Pure-PHP PDF text extractor (FlateDecode, ASCII85, ASCIIHex). Encrypted PDFs skipped; scanned/image-only PDFs fall back to Media Library metadata.</li>\n<li>Added: \"Maximum PDF size\" setting (default 20 MB) to protect memory on shared hosting.</li>\n<li>Note: PDF search results link directly to the file.</li>\n</ul>\n<h4>0.6.2</h4>\n<ul>\n<li>Changed: Consolidated the four Tools menu entries into a single top-level \"MBR Site Assistant\" admin menu with native submenus.</li>\n</ul>"
+    }
+}
