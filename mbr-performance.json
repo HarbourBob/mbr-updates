@@ -1,18 +1,18 @@
 {
 	"name": "MBR Performance",
 	"slug": "mbr-performance",
-	"version": "1.20.1",
-	"download_url": "https://littlewebshack.com/downloads/mbr-performance/mbr-performance-1.20.1.zip",
+	"version": "1.22.0",
+	"download_url": "https://littlewebshack.com/downloads/mbr-performance/mbr-performance-1.22.0.zip",
 	"author": "<a href=\"https://littlewebshack.com\">Robert Palmer</a>",
 	"author_homepage": "https://littlewebshack.com/about/",
 	"homepage": "https://littlewebshack.com/mbr-performance/",
 	"requires": "5.9",
 	"tested": "7.0",
 	"requires_php": "7.4",
-	"last_updated": "2026-07-10 01:30:00",
+	"last_updated": "2026-07-24 00:00:00",
 	"sections": {
 		"description": "Granular, transparent WordPress performance optimisation across core, scripts, fonts, preloading, database, images, WooCommerce and multisite — plus paste-in Critical CSS.",
-		"changelog": "<h4>1.20.1</h4><ul><li>Update checks now served from GitHub for reliable delivery.</li><li>Consolidated self-hosted release; corrected update manifest.</li></ul>",
+		"changelog": "<h4>1.22.0</h4><ul><li>New: Script Modules and Interactivity API support (WP 6.5+), including module preload hoisting that fixes late preload hints on classic themes.</li><li>New: static dependency graph walking, fetchpriority control, preload cap and exclusions. Off by default.</li></ul><h4>1.21.3</h4><ul><li>Fix: PDF report preview now renders as a centred A4 sheet instead of stretching to the browser width.</li><li>Fix: Note badge styling in reports; proper tab names on recommendation links.</li></ul><h4>1.21.2</h4><ul><li>Fix: real-user field data now appears in the Doctor site-scan view (it was being stripped by the info-tier roll-up filter).</li><li>Change: field data reported once site-wide rather than per template, and provisional notes now show the actual readings.</li></ul><h4>1.21.1</h4><ul><li>Fix: RUM field data now reaches the Performance Doctor immediately via on-demand aggregation, rather than waiting for the nightly cron.</li><li>New: \"Run aggregation now\" button; clearer status reporting; provisional p75s shown from 10 samples.</li></ul><h4>1.21.0</h4><ul><li>New: self-hosted Real User Monitoring — collects real-user Core Web Vitals (LCP, CLS, INP) into local tables and shows field data per template and per URL. No cookies, no IPs, nothing leaves your server. Off by default.</li><li>Hardening: the plugin's own mbrpe/v1 REST namespace is always permitted through REST hardening so the RUM beacon works for logged-out visitors.</li></ul><h4>1.20.1</h4><ul><li>Update checks now served from GitHub for reliable delivery.</li><li>Consolidated self-hosted release; corrected update manifest.</li></ul>",
 		"installation": "Upload the plugin to <code>/wp-content/plugins/</code>, activate, and configure under MBR &rarr; Performance."
 	},
 	"icons": {
