@@ -1,17 +1,17 @@
 {
     "name": "MBR HTML Generator",
     "slug": "mbr-html-generator",
-    "version": "1.8.0",
+    "version": "1.8.1",
+    "download_url": "https://littlewebshack.com/downloads/mbr-html-generator/mbr-html-generator-1.8.1.zip",
+    "homepage": "https://littlewebshack.com/online-html-generator/",
     "author": "Robert Palmer",
     "author_homepage": "https://madebyrobert.co.uk",
     "requires": "5.8",
     "tested": "6.7",
     "requires_php": "7.4",
-    "download_url": "https://littlewebshack.com/downloads/html-generator/mbr-html-generator-v1.8.0.zip",
-    "homepage": "https://littlewebshack.com/online-html-generator/",
+    "last_updated": "2026-08-01 03:49:22",
     "sections": {
-        "description": "A two-panel HTML generator for WordPress. Compose visually in TinyMCE on the left, watch the formatted HTML appear in real time on the right. Bundled TinyMCE 8.5.0 (GPL community edition) — no CDN, no API keys, no telemetry, no premium tier.",
-        "changelog": "<h4>1.8.0</h4><ul><li>New: Self-hosted update checking via Plugin Update Checker 5.7, with the manifest served from the public HarbourBob/mbr-updates GitHub repo (raw URL) to bypass host-side caching.</li><li>Changed: Footer credit link now points to madebyrobert.co.uk (opens in new tab).</li></ul>"
-    },
-    "last_updated": "2026-07-13"
+        "description": "A two-panel HTML generator for WordPress. Compose visually in TinyMCE on the left and watch the formatted HTML appear in real time on the right. Available as a Tools page in the admin and as a [mbr_html_generator] shortcode on the frontend. TinyMCE is bundled locally (GPL community edition) \u2014 no external CDN, no API keys, no telemetry, no premium tier.",
+        "changelog": "<h4>1.8.1</h4><ul><li><strong>Security:</strong> Updated the bundled TinyMCE from 8.5.0 to 8.6.0. TinyMCE 8.5.1 addressed several stored cross-site scripting (XSS) issues, including one in the <code>media</code> plugin (which this plugin loads) affecting crafted <code>data-mce-object</code> / <code>data-mce-p-</code> attributes, plus issues involving unsanitised <code>data-mce-href</code>, <code>data-mce-src</code>, and <code>data-mce-style</code> attributes. 8.6.0 is the current stable release and includes those fixes. Drop-in dependency update \u2014 no configuration or markup changes required.</li></ul><h4>1.8.0</h4><ul><li><strong>New:</strong> Self-hosted update checking via Plugin Update Checker 5.7, with the manifest served from the public HarbourBob/mbr-updates GitHub repo. Updates surface on the standard WordPress Plugins/Updates screens.</li><li><strong>Changed:</strong> Footer credit link now points to https://madebyrobert.co.uk.</li></ul><h4>1.7.2</h4><ul><li><strong>New:</strong> Inline colour swatches in the output panel for hex, rgb(), rgba(), hsl(), and hsla() values. Display-only \u2014 copied/downloaded output is untouched.</li></ul>"
+    }
 }
