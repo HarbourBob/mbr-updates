@@ -1,13 +1,13 @@
 {
     "name": "MBR Intelligent Site Assistant",
     "slug": "mbr-intelligent-site-assistant",
-    "version": "0.7.0",
-    "download_url": "https://littlewebshack.com/downloads/site-assistant/mbr-intelligent-site-assistant.zip",
+    "version": "0.7.1",
+    "download_url": "https://littlewebshack.com/downloads/site-assistant/mbr-intelligent-site-assistant-v0.7.1.zip",
     "homepage": "https://littlewebshack.com",
     "author": "Robert Palmer",
     "author_homepage": "https://littlewebshack.com",
     "requires": "5.8",
-    "tested": "6.7",
+    "tested": "7.0",
     "requires_php": "7.4",
     "last_updated": "2026-07-23 21:47:32",
     "sections": {
