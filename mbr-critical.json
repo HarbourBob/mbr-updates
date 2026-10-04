@@ -1,0 +1,26 @@
+{
+	"name": "MBR Critical CSS Generator",
+	"slug": "mbr-critical-css",
+	"version": "1.2.1",
+	"download_url": "https://littlewebshack.com/downloads/critical-css/mbr-critical-css-1.2.1.zip",
+	"author": "<a href=\"https://littlewebshack.com\">Robert Palmer</a>",
+	"author_homepage": "https://madebyrobert.co.uk",
+	"homepage": "https://mbr-critical.co.uk/",
+	"requires": "6.0",
+	"tested": "7.1",
+	"requires_php": "7.4",
+	"last_updated": "2026-10-04 07:00:00",
+	"sections": {
+		"description": "A self-hosted Critical CSS generator. Add the [mbr_critical_css] shortcode to any page: your server fetches the target page and its stylesheets, and the visitor's own browser renders it at the chosen viewport and extracts the above-the-fold CSS, then checks the result against the full render. Works on shared hosting, with no Node.js or headless Chrome. No premium tier, no upsells, no tracking, GPL licensed.",
+		"changelog": "<h4>1.2.1</h4><ul><li>Self-hosted updates through Plugin Update Checker, so new versions appear on the Plugins screen.</li></ul><h4>1.2.0</h4><ul><li>CSS is now processed with a tokenizer: only real url(), image-set() and @import references are rewritten, never text inside strings or comments.</li><li>The processing budget is charged as output is written, with URL-length and reference limits, a memory guard, and deadline checks throughout.</li><li>The preview's Content Security Policy allows images and fonts only from hosts that passed server-side checks, including after redirects.</li><li>srcset is parsed exactly as browsers parse it.</li><li>Hidden-element rules keep their custom properties; interaction states inside :not() no longer break selectors.</li><li>The fidelity check is now a layout &amp; style check covering position, size, visibility, colours, backgrounds, borders and fonts.</li></ul><h4>1.1.0</h4><ul><li>Security and accuracy release following an independent code audit: job budgets and deadline, atomic rate limiting, a cap on simultaneous jobs, full-origin checks and a restricted preview.</li><li>Rules that keep hidden or off-screen elements in place are kept; @import conditions and stylesheet redirects are handled correctly; fonts and keyframes stay in their original wrappers.</li><li>New fidelity check comparing a critical-only render with the full page.</li></ul><h4>1.0.2</h4><ul><li>Fixed the results area overflowing on wide viewports.</li></ul><h4>1.0.1</h4><ul><li>Fixed theme iframe rules shrinking the measuring frame; better minification; clearer stats.</li></ul><h4>1.0.0</h4><ul><li>Initial release.</li></ul>",
+		"installation": "Upload the plugin to <code>/wp-content/plugins/</code> and activate it. Add the <code>[mbr_critical_css]</code> shortcode to any page, and adjust access, rate limiting and simultaneous jobs under Settings &rarr; Critical CSS Generator."
+	},
+	"icons": {
+		"1x": "https://littlewebshack.com/updates/assets/mbr-critical-css-128.png",
+		"2x": "https://littlewebshack.com/updates/assets/mbr-critical-css-256.png"
+	},
+	"banners": {
+		"low": "https://littlewebshack.com/updates/assets/mbr-critical-css-772x250.png",
+		"high": "https://littlewebshack.com/updates/assets/mbr-critical-css-1544x500.png"
+	}
+}
