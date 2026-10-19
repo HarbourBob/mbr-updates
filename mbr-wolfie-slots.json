@@ -1,0 +1,33 @@
+{
+	"name": "MBR Wolfie Slots",
+	"slug": "mbr-wolfie-slots",
+	"version": "1.0.1",
+	"download_url": "https://littlewebshack.com/downloads/wolfie-slots/mbr-wolfie-slots-1.0.1.zip",
+	"author": "<a href=\"https://littlewebshack.com\">Robert Palmer</a>",
+	"author_homepage": "https://madebyrobert.co.uk",
+	"homepage": "https://littlewebshack.com/mbr-wolfie-slots/",
+	"requires": "6.3",
+	"tested": "7.1",
+	"requires_php": "7.4",
+	"upgrade_notice": "Adds one-click automatic updates. No changes to the game or saved balances. If you are on 1.0.0, install this version manually once; future updates then arrive automatically.",
+	"last_updated": "2026-10-18 00:00:00",
+	"sections": {
+		"description": "<p><strong>Wolfie — Moonlight Slots.</strong> A moonlit four-reel slot simulator for WordPress with play tokens, original vector artwork, synthesized sound and the Big Prize Run bonus. Place it on any page with the <code>[mbr_wolfie]</code> shortcode.</p><ul><li>Four reels, a 4×4 window and four paylines, with wagers of 1–5 play tokens</li><li>Big Prize Run: three or more wolves trigger 5–9 free spins where every spin wins</li><li>Sound synthesized live with the Web Audio API, with no audio files</li><li>Sealed styling: your theme and Elementor Kit can't distort the game, and the game can't touch your theme</li><li>Container-query layout that fits whatever column it's in, from a phone to a full-width page</li><li>Assets load only on pages that contain the game</li><li>No network requests, no cookies, no telemetry, nothing stored on your server</li></ul><p>Just for fun. No purchases. No cash prizes.</p>",
+		"installation": "<ol><li>Upload the ZIP via <strong>Plugins &rarr; Add New Plugin &rarr; Upload Plugin</strong> and activate it.</li><li>Add <code>[mbr_wolfie]</code> to any page or post (a Shortcode block, the Classic editor or Elementor's Shortcode widget).</li><li>Optional: <code>intro=\"no\"</code> hides the title block and <code>header=\"no\"</code> hides the brand bar.</li></ol><p>The full user guide (PDF) is included in the plugin folder.</p>",
+		"changelog": "<h4>1.0.1</h4><ul><li>New: automatic updates via Plugin Update Checker 5.7 and the Little Web Shack update feed. The <code>MBR_WOLFIE_UPDATE_URL</code> constant overrides or disables it.</li><li>New: README.md and a 16-page PDF user guide.</li><li>No changes to gameplay, odds or saved balances.</li></ul><h4>1.0.0</h4><ul><li>First release: the Wolfie Chrome extension (v1.0.3) rebuilt as a WordPress plugin, with the <code>[mbr_wolfie]</code> shortcode, theme isolation, container-query layout, focus-scoped Space-to-spin, conditional asset loading and Elementor support.</li></ul>"
+	},
+	"icons": {
+		"1x": "https://littlewebshack.com/updates/assets/mbr-wolfie-slots-128.png",
+		"2x": "https://littlewebshack.com/updates/assets/mbr-wolfie-slots-256.png"
+	},
+	"banners": {
+		"low": "https://littlewebshack.com/updates/assets/mbr-wolfie-slots-772x250.png",
+		"high": "https://littlewebshack.com/updates/assets/mbr-wolfie-slots-1544x500.png"
+	},
+	"checksum": {
+		"file": "mbr-wolfie-slots-1.0.1.zip",
+		"size": 1789647,
+		"sha256": "b6a60485f9490d8df9bf38ba5f2162de7c89a7ef4fad2588b72772e1407df907",
+		"md5": "5dfbaa231aa9c77160287628d57c542c"
+	}
+}
